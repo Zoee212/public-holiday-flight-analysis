@@ -78,7 +78,7 @@ Based on the analysis, the main findings are:
 ## Files
 - `README.md`
 - `flight_analysis.ipynb`
-- `data/flights.csv`
+- `data/flights.xlsx`
 - `figures/`
 
 ## Output
@@ -100,4 +100,6 @@ This project has several limitations:
 A 1–3 minute demo video is included in the final submission.
 
 ## Author
-ACC102 Mini Assignment Project
+Zhe.Shen2402
+## Student Number
+2469589
