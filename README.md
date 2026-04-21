@@ -78,7 +78,7 @@ Based on the analysis, the main findings are:
 ## Files
 - `README.md`
 - `flight_analysis.ipynb`
-- `data_flights.xlsx`
+- `flight_data.xlsx`
 - `figures/`
 
 ## Output
