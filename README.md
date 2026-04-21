@@ -42,7 +42,7 @@ The dataset includes the following variables:
 **Website:** https://www.skyscanner.com/  
 **Access date:** 21 April 2026  
 **Collection method:** Manual searches of flight options from Shanghai to Singapore, Seoul, and Tokyo during Labour Day and National Day holiday periods  
-**Data format:** Manually collected in Excel and saved as CSV for analysis  
+**Data format:** Manually collected in Excel and saved as XLSX for analysis  
 **Number of records:** 72  
 
 To improve consistency, the searches were conducted using the same general settings, including origin city, passenger type, cabin class, trip type, and currency.
