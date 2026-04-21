@@ -36,8 +36,10 @@ The dataset includes:
 - direct flight or not
 - number of stops
 
-**Data source:** To be added  
-**Access date:** To be added
+**Data source:** Skyscanner (https://www.skyscanner.com/)
+**Access date:** 21 April 2026
+**Collection Method**: Manual search for flight options from Shanghai to Singapore, Seoul, Tokyo during Labour Day and National Day holiday periods
+- **Data Format**: Excel file with 72 records covering various departure dates and flight options
 
 ## Methods
 This project uses Python to:
@@ -47,7 +49,16 @@ This project uses Python to:
 4. identify options that better balance price and comfort
 
 ## Key Findings
-To be added after analysis.
+Based on the analysis, the main findings are:
+
+1. **Price peaks before holidays** – The average ticket price before holidays (1,577 CNY) is much higher than after holidays (840 CNY), a difference of nearly 50%. However, students and teachers often cannot travel after holidays due to school/work schedules.
+
+2. **Seoul is the most affordable destination during holidays** – Among the three destinations, Seoul has the lowest average price during the holiday period (1,331 CNY), while Tokyo is the most expensive (1,443 CNY).
+
+3. **Direct flights cost a premium** – Direct flights are on average 300 CNY more expensive than indirect flights, which may be worth it for travelers who value time but not for budget-conscious students.
+
+4. **Comfort comes at a cost** – Higher comfort scores (direct flights, non-red-eye, zero stops) are associated with higher prices. Non-red-eye flights are available at similar prices to red-eye flights for most routes, making them a better choice for comfort.
+
 
 ## How to Run
 1. Open `flight_analysis.ipynb`
@@ -64,4 +75,4 @@ To be added after analysis.
 To be added.
 
 ## Author
-[Your Name]
+[Zhe.Shen2402]
