@@ -1,32 +1,67 @@
-# Project Title
-How to Find Better Flight Options During Public Holidays for Students and Teachers
+# How to Find Better Flight Options During Public Holidays for Students and Teachers
+
+## Overview
+This project analyzes flight options for students and teachers who can only travel during public holidays. It focuses on finding a better balance between **price** and **comfort**.
 
 ## Problem
-Students and teachers often can only travel during public holidays, when flights are usually more expensive and less flexible. This project analyzes flight-related data to help them find better options by balancing price and comfort.
+Flights during public holidays are often more expensive and less convenient. This project explores how flight prices and comfort-related features change around holiday periods, so that users can make better travel decisions.
 
 ## Target Users
-Students and teachers with limited travel windows during public holidays.
+- Students
+- Teachers
+- Other travelers with limited flexibility during public holidays
 
 ## Data Scope
-- Holidays: Labour Day Holiday, National Day Holiday
-- Origin: Shanghai
-- Destinations: Singapore, Seoul, Tokyo
-- Comfort indicators: direct flight, red-eye departure (00:00–06:00), number of stops
-- Key fields: departure date, ticket price, flight duration
+- **Origin:** Shanghai
+- **Destinations:** Singapore, Seoul, Tokyo
+- **Holiday periods:** Labour Day Holiday and National Day Holiday
+- **Time window:** 7 days before, during, and 7 days after each holiday
+
+## Comfort Indicators
+This project uses the following indicators of comfort:
+- whether the flight is **direct**
+- whether the departure time is **between 00:00 and 06:00**
+- **number of stops**
+
+## Research Question
+How do flight prices and comfort-related features change around major public holidays, and how can students and teachers use this information to find better flight options?
+
+## Data
+The dataset includes:
+- destination
+- departure date
+- holiday period
+- ticket price
+- departure time
+- direct flight or not
+- number of stops
+
+**Data source:** To be added  
+**Access date:** To be added
 
 ## Methods
-Using Python (pandas, matplotlib/seaborn):
-1. Data cleaning and preprocessing
-2. Price trend analysis around holidays
-3. Correlation analysis between price and comfort indicators
-4. Visualization of key findings
+This project uses Python to:
+1. clean and organize the flight data
+2. compare prices across dates and destinations
+3. analyze comfort indicators
+4. identify options that better balance price and comfort
 
 ## Key Findings
-- Price trends before, during, and after public holidays
-- Relationships between ticket price and comfort factors
-- Recommended low-price, high-value travel dates and routes
+To be added after analysis.
 
 ## How to Run
-1. Clone this repository to your local machine
-2. Install required Python packages
-3. Open and run the Jupyter Notebook flight_analysis.ipynb
+1. Open `flight_analysis.ipynb`
+2. Install required libraries
+3. Run the notebook step by step
+
+## Files
+- `README.md`
+- `flight_analysis.ipynb`
+- `data/` (if needed)
+- `figures/` (if needed)
+
+## Demo Video
+To be added.
+
+## Author
+[Your Name]
