@@ -79,7 +79,7 @@ Based on the analysis, the main findings are:
 - `README.md`
 - `flight_analysis.ipynb`
 - `flight_data.xlsx`
-- `figures/`
+- `figures.png`
 
 ## Output
 The notebook produces charts and analysis that help compare:
