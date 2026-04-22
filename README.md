@@ -96,6 +96,9 @@ This project has several limitations:
 - The analysis focuses only on selected dates, destinations, and one departure city
 - The results reflect the options visible on Skyscanner at the time of data collection
 
+## Conclusion
+This project shows that flight prices during public holidays are generally higher than prices before or after the holiday period. Among the three destinations, Seoul appears to be the most affordable option during the holiday period, while Tokyo is the most expensive. The analysis also suggests that direct flights usually cost more, but non-red-eye flights can often be found at similar prices to red-eye flights. Overall, students and teachers who must travel during public holidays may save money and improve comfort by choosing Seoul, considering indirect flights when budget matters, and avoiding red-eye departures when possible.
+
 ## Demo Video
 A 1–3 minute demo video is included in the final submission.
 
